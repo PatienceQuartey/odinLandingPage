@@ -3,9 +3,63 @@
 }
 body{
     background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 footer{
+    border: 5px solid green;
     background-color: #1F2937;
     color: #F9FAF8;
+    height: 100px;
+    display: block;
+    margin-top: auto;
 }
+
+
+
+
+header{
+    border: 5px solid red;
+}
+
+
+
+
+
+
+
+
+
+main{
+
+    border: 5px solid purple;
+
+}
+
+
+.nav-container{
+    border: 5px dotted dodgerblue;
+    display: flex;
+}
+
+.links-container{
+    border: 2px dotted darkgoldenrod;
+    display: flex;
+    margin-left: auto;
+
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.name-container, .links-container{
+    font-family: "Funnel Display", sans-serif;
+}
+
