@@ -27,15 +27,26 @@ License - CC BY 2.0
 
 
 
-PHOTO 2
+PHOTO 4
+Title - Waffles with mixed berries in breakfast
+Author  - City Foodsters
+Source - Wikimedia Commons - https://creativecommons.org/licenses/by/2.0
+License - CC BY 2.0
+
+
+PHOTO 5
+Title - Pancakes in County Clare
+Author  - IrishFireside from Ishpeming, MI, USA
+Source - Wikimedia Commons - https://creativecommons.org/licenses/by/2.0
+License - CC BY 2.0
+
+
+
+PHOTO 6
 Title -
 Author  - 
 Source - 
 License
 
 
-PHOTO 2
-Title -
-Author  - 
-Source - 
-License
+
