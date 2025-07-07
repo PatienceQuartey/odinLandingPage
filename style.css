@@ -63,3 +63,8 @@ ul{
     font-family: "Funnel Display", sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
