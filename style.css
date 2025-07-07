@@ -44,6 +44,8 @@ main{
 .nav-container{
     border: 5px dotted dodgerblue;
     display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .links-container{
@@ -52,6 +54,7 @@ main{
     margin-left: auto;
 
 }
+
 ul{
     display: flex;
     gap: 20px;
@@ -65,6 +68,9 @@ ul{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #F9FAF8;
 }
 
+a:hover{
+    text-decoration: underline wavy yellow;
+}
