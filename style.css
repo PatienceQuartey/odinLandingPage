@@ -3,11 +3,12 @@
 }
 body{
     background-color: aliceblue;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
     padding-left: 100px;
     padding-right: 100px;
+    font-family: "Roboto", sans-serif;
 
 
 }
@@ -25,12 +26,6 @@ footer{
 header{
     border: 5px solid red;
 }
-
-
-
-
-
-
 
 
 
@@ -88,7 +83,7 @@ a:hover{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    font-family: "Roboto", sans-serif;
+
 }
 
 button{
@@ -123,7 +118,7 @@ button{
 .info-container > h2{
     text-align: center;
     text-decoration: underline wavy darkcyan;
-    font-family: "Roboto", sans-serif;
+
 
 }
 
@@ -160,3 +155,19 @@ button{
     padding-right: 70px;
 }
 
+.quote-container{
+    border: 10px solid firebrick;
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote{
+    border: 5px dotted darkorange;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.quote-container>p{
+    text-align: end;
+
+}
