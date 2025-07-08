@@ -131,5 +131,32 @@ button{
     border: 10px dotted khaki;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+
+.menu-items{
+    border: 5px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+
+}
+
+.menu-items > img{
+    
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.menu-items > p{
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
