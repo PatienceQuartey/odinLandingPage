@@ -22,8 +22,6 @@ footer{
 }
 
 
-
-
 header{
     border: 5px solid red;
 }
@@ -64,9 +62,6 @@ main{
     width: 50%;
     background-color: #1F2937;
 }
-
-
-
 
 
 ul{
@@ -119,8 +114,22 @@ button{
     border: 5px solid greenyellow;
     display: flex;
     justify-content: center;
-    
-    
-    
+}
+
+.info-container{
+    border: 5px solid hotpink;
+}
+
+.info-container > h2{
+    text-align: center;
+    text-decoration: underline wavy darkcyan;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.menu-container{
+    border: 10px dotted khaki;
+    display: flex;
+    flex-wrap: wrap;
 }
 
