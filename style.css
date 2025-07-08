@@ -61,6 +61,8 @@ main{
     border: 5px solid brown;
     display: flex;
     flex-direction: column;
+    width: 50%;
+    background-color: #1F2937;
 }
 
 
@@ -85,4 +87,15 @@ a{
 
 a:hover{
     text-decoration: underline wavy yellow;
+}
+
+.hero-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+}
+
+button{
+    width: 100px;
 }
