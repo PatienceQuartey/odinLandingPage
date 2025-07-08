@@ -173,3 +173,18 @@ blockquote{
     text-align: end;
 
 }
+
+.call-to-action{
+    border: 5px dotted fuchsia;
+    height: 20vh;
+}
+
+
+
+.parent-container-0{
+    border: 10px solid slateblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
