@@ -6,6 +6,8 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
 
 
 }
@@ -54,6 +56,16 @@ main{
     margin-left: auto;
 
 }
+
+.text-container{
+    border: 5px solid brown;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 
 ul{
     display: flex;
