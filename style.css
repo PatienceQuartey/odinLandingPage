@@ -105,3 +105,22 @@ button{
     border-radius: 5px;
 }
 
+.placeholder-container{
+    border: 5px solid violet;
+    display: flex;
+}
+
+.photo-container > img{
+    width: 50%;
+    
+}
+
+.photo-container{
+    border: 5px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
