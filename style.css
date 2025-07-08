@@ -97,5 +97,11 @@ a:hover{
 }
 
 button{
-    width: 100px;
+    width: 120px;
+    height: 40px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 5px;
 }
+
