@@ -141,4 +141,20 @@ h1{
     height: 30px;
 }
 
+.author-name{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+blockquote{
+    display: flex;
+    justify-content: center;
+    border: 5px solid springgreen;
+    margin-right: 30vw;
+    margin-left: 30vw;
+    font-style: italic;
+}
+
 
