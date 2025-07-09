@@ -5,7 +5,9 @@ body{
     border: 10px solid red;
     display: flex;
     flex-direction: column;
+    /*
     height: 100vh;
+    */
     font-family: "Roboto", sans-serif;
 }
 
@@ -25,7 +27,7 @@ main{
     border: 10px solid greenyellow;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+
 }
 
 .call-to-action{
@@ -82,6 +84,7 @@ main{
    
 
 }
+
 ul{
     display: flex;
     gap: 30px;
@@ -109,6 +112,7 @@ h1{
     border: 5px solid olivedrab;
     gap: 50px;
     flex-wrap: wrap;
+    flex: 1;
 
 
 }
@@ -118,10 +122,23 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 500px;
+    max-width: 400px;
+
+    
+
     padding-left: 100px;
     padding-right: 100px;
-    text-align: center;
+    text-align: center; 
+}
+
+.singup-btn{
+
+    border-radius: 5px;
+    background-color: #3882F6;
+    border: #3882F6;
+    color: #F9FAF8;
+    width: 80px;
+    height: 30px;
 }
 
 
