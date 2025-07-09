@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    border: 10px solid red;
+    /*border: 10px solid red; */
     display: flex;
     flex-direction: column;
     /*
@@ -13,7 +13,7 @@ body{
 
 
 footer{
-    border: 10px solid saddlebrown;
+   /* border: 10px solid saddlebrown; */
     margin-top: auto;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -24,7 +24,7 @@ footer{
 }
 
 main{
-    border: 10px solid greenyellow;
+   /* border: 10px solid greenyellow; */
     display: flex;
     flex-direction: column;
 
@@ -32,7 +32,7 @@ main{
 
 .call-to-action{
 
-    border: 5px dotted indigo;
+    /* border: 5px dotted indigo; */
     display: flex;
     justify-content: center;
     background-color: #3882F6;
@@ -46,7 +46,7 @@ main{
 }
 
 .the-quote{
-    border: 5px dotted peru;
+   /* border: 5px dotted peru; */
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
@@ -54,7 +54,7 @@ main{
 }
 
 .menu-container{
-    border: 5px dotted blue;
+   /* border: 5px dotted blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,7 +71,7 @@ main{
 }
 
 .header-container{
-    border: 10px solid hotpink;
+   /* border: 10px solid hotpink; */
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
@@ -87,9 +87,16 @@ main{
 }
 
 .logo-and-nav{
-    border: 5px dotted teal;
-    display: flex;
-    align-items: center;
+  /*border: 5px dotted teal; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+
+
+
+
    
 
 }
@@ -98,8 +105,7 @@ ul{
     display: flex;
     gap: 30px;
     list-style-type: none;
-    margin-left: auto;
-    padding-right: 30px;
+
 }
 
 h1{
@@ -119,7 +125,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid olivedrab;
+   /* border: 5px solid olivedrab; */
     gap: 50px;
     flex-wrap: wrap;
     flex: 1;
@@ -128,7 +134,7 @@ h1{
 }
 
 .menu-item{
-    border: 5px solid rgb(0, 255, 234);
+  /*  border: 5px solid rgb(0, 255, 234); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,7 +170,7 @@ h1{
 blockquote{
     display: flex;
     justify-content: center;
-    border: 5px solid springgreen;
+   /* border: 5px solid springgreen; */
     margin-right: 30vw;
     margin-left: 30vw;
     font-style: italic;
@@ -176,14 +182,14 @@ blockquote{
 }
 
 .hero-text{
-    border: 5px solid brown;
+   /* border: 5px solid brown; */
     width: 500px;
 
 
 }
 
 .intro-text{
-    border: 5px dotted cornsilk;
+   /* border: 5px dotted cornsilk; */
     padding-right: 50px;
 
 }
@@ -199,4 +205,13 @@ a:hover{
     text-decoration: underline wavy chartreuse;
     cursor: pointer;
     color: #F9FAF8;
+}
+
+h2, h3{
+    text-decoration: underline wavy hotpink;
+    font-style: italic;
+}
+
+blockquote, h3{
+    color: #1F2937;
 }
