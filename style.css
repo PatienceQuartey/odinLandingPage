@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 10px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+footer{
+    border: 10px solid saddlebrown;
+    margin-top: auto;
+}
+
+main{
+    border: 10px solid greenyellow;
+}
+
+.call-to-action{
+
+    border: 5px dotted indigo;
+
+}
+
+.the-quote{
+    border: 5px dotted peru;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+
+}
+
+.menu-container{
+    border: 5px dotted blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-images{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.header-container{
+    border: 10px solid hotpink;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image{
+    object-fit: fill;
+    width: 500px;
+    height: 200px;
+
+}
+
