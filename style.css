@@ -6,16 +6,26 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-family: "Roboto", sans-serif;
 }
 
 
 footer{
     border: 10px solid saddlebrown;
     margin-top: auto;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 main{
     border: 10px solid greenyellow;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .call-to-action{
@@ -35,6 +45,7 @@ main{
 .menu-container{
     border: 5px dotted blue;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -51,6 +62,9 @@ main{
     border: 10px solid hotpink;
     display: flex;
     flex-direction: column;
+    color: #F9FAF8;
+    background-color: #1F2937;;
+
 }
 
 .hero-image{
@@ -59,4 +73,56 @@ main{
     height: 200px;
 
 }
+
+.logo-and-nav{
+    border: 5px dotted teal;
+    display: flex;
+    align-items: center;
+   
+
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-left: auto;
+    padding-right: 30px;
+}
+
+h1{
+    font-size: 24px ;
+
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.inner-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid olivedrab;
+    gap: 50px;
+
+
+}
+
+.menu-item{
+    border: 5px solid rgb(0, 255, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+
+
+
+
+}
+
 
