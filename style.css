@@ -39,6 +39,9 @@ main{
     color: #F9FAF8;
     align-items: center;
     gap: 30px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border-radius: 10px;
 
 }
 
