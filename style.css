@@ -188,5 +188,15 @@ blockquote{
 
 }
 
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+
+}
 
 
+a:hover{
+    text-decoration: underline wavy chartreuse;
+    cursor: pointer;
+    color: #F9FAF8;
+}
