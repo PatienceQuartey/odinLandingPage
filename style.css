@@ -90,7 +90,7 @@ main{
   /*border: 5px dotted teal; */
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 50px;
   padding-right: 50px;
 
