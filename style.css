@@ -48,6 +48,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .menu-images{
@@ -96,8 +97,9 @@ h1{
 
 .hero-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .inner-menu-container{
@@ -106,6 +108,7 @@ h1{
     align-items: center;
     border: 5px solid olivedrab;
     gap: 50px;
+    flex-wrap: wrap;
 
 
 }
@@ -119,10 +122,6 @@ h1{
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
-
-
-
-
 }
 
 
