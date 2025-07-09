@@ -146,6 +146,8 @@ h1{
     justify-content: flex-end;
     padding-right: 50px;
     font-weight: bold;
+    margin-right: 20vw;
+    margin-left: 20vw;
 }
 
 blockquote{
